@@ -3,6 +3,7 @@ import { AiOutlineTwitter } from "react-icons/ai";
 import { BiLogoFacebook } from "react-icons/bi";
 import { BiLogoInstagram } from "react-icons/bi";
 
+
 export const Socials = () => {
   return (
     <div className="socials">

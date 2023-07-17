@@ -1,6 +1,8 @@
 import { Navbar } from "./Navbar"
 import { Socials } from "./Socials"
+import { MobileIcons } from "./MobileIcons"
 import { CiPlay1 } from "react-icons/ci";
+import scrollDown from '.././images/scrollDown.png'
 
 export const Header = () => {
   return (
@@ -23,7 +25,11 @@ export const Header = () => {
               For the People <br /> and By <span>The People</span>
             </h2>
             <p>Know your leaders, stay informed on current updates, <br /> create and share polls, and join online town halls to <br /> stay updated about the Nigerian political spaceå</p>
+            <MobileIcons />
           </div>
+        </div>
+        <div className="scrollDownImage">
+          <img src={scrollDown} alt="" />
         </div>
     </div>
   )
