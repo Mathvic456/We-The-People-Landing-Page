@@ -8,19 +8,25 @@
 
 .navHeader ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   background: transparent linear-gradient(97deg, #FFFFFF66 0%, #F1B8003A 49%, #FFFFFF0D 100%) 0% 0% no-repeat padding-box;
   opacity: 1;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  width: 748px;
-  height: 71px;
+  width: 708px;
+  height: 81px;
 }
 
 .navHeader li p{
-  width: 130px;
   color: gold;
+  font-size: 16px;
+}
+
+.logo{
+  width: 49px;
+  height: 49px;
+  margin: 2rem;
 }
 
 .heroSection{
@@ -51,6 +57,33 @@
     opacity: 1;
     backdrop-filter: blur(40px);
     -webkit-backdrop-filter: blur(40px);
-    width: 433px;
-      height: 205px;
+    width: 333px;
+      height: 165px;
+      border-radius: 5px;
+      position: relative;
+      top: 12rem;
+      left: 5rem;
+}
+
+
+.title{
+  display: flex;
+  align-items: center;
+}
+
+.play{
+  background: transparent linear-gradient(135deg, #FFFFFF66 0%, #FFFFFF0D 100%) 0% 0% no-repeat padding-box;
+    border: 2px solid #60606026;
+    border-radius: 39px;
+    opacity: 1;
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+    width: 54px;
+      height: 54px;
+}
+
+.play p{
+      position:relative;
+      top: 17px;
+        left: 18px;
 }

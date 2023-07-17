@@ -9,7 +9,7 @@ export const Navbar = () => {
       <ul>
         <li><p>About Us</p></li>
         <li><p>What We Do</p></li>
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo" className='logo'/>
         <li><p>App Features</p></li>
         <li><p>Contact Us</p></li>
       </ul>
