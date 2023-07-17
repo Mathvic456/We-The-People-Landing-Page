@@ -62,7 +62,7 @@
       border-radius: 5px;
       position: relative;
       top: 12rem;
-      left: 5rem;
+      /* left: 5rem; */
 }
 
 
@@ -86,4 +86,31 @@
       position:relative;
       top: 17px;
         left: 18px;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.heroRightText{
+  position: relative;
+  top: 22rem;
+  left: 5rem;
+}
+
+.heroRightText h2{
+  color: #FFD39E;
+  font: normal normal bold 61px/70px Noe Display;
+}
+
+.heroRightText span{
+  color: #e3902b;
+}
+
+.heroRightText p{
+  color: #ffffff;
+  font: normal normal medium 28px/38px General Sans;
+  opacity: 1;
 }
