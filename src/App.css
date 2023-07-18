@@ -154,3 +154,32 @@
     transform: translateY(-12px);
   }
 }
+
+
+
+/* ABOUT US SECTION */
+.aboutus{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+  background: #000;
+}
+
+.aboutus img{
+  width: auto;
+  height: 100vh;
+}
+
+.about-us h1{
+  position: relative;
+  left: -4rem;
+  color: #E3902B;
+  font: normal normal bold 6.5rem/237px Noe Display;
+}
+.about-us p{
+  font: normal normal medium 29px/39px General Sans;
+  text-align: left;
+  padding: 2rem;
+  color: #FFD39E;
+}
