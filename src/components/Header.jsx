@@ -2,7 +2,7 @@ import { Navbar } from "./Navbar"
 import { Socials } from "./Socials"
 import { MobileIcons } from "./MobileIcons"
 import { CiPlay1 } from "react-icons/ci";
-import scrollDown from '.././images/scrollDown.png'
+import scrollDown from '.././images/scrolldown.png'
 
 export const Header = () => {
   return (
