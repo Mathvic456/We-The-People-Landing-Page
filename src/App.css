@@ -24,8 +24,12 @@ body{
 }
 
 .navHeader li p{
-  color: gold;
+  color: white;
   font-size: 16px;
+}
+
+.navHeader li p:hover {
+  color: #E3902B
 }
 
 .logo{
