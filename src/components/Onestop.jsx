@@ -1,6 +1,7 @@
-import rightPhone from '.././images/rightphone.png'
-import playicon from '.././images/icons/googleplay.png'
-import appleicon from '.././images/icons/applewhite.png'
+import rightPhone from '../images/rightphone.png'
+import playicon from '../images/icons/googleplay.png'
+import appleicon from '../images/icons/applewhite.png'
+
 
 export const Onestop = () => {
   return (

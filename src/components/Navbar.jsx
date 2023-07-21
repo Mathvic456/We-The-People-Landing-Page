@@ -1,6 +1,6 @@
 // import { Link } from 'react-router-dom'
 // import { FcLibrary } from "react-icons/fc";
-import logo from '.././images/Logo.svg'
+import logo from '../images/Logo.svg'
 
 
 export const Navbar = () => {

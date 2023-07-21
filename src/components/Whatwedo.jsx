@@ -1,5 +1,6 @@
-import whatsing from '.././images/whatwe1.png'
-import whatkids from '.././images/happykids.jpg'
+import whatsing from '../images/whatwe1.png';
+import whatkids from '../images/happyKids.jpg'
+
 export const Whatwedo = () => {
   return (
     <div className="whatwedo">

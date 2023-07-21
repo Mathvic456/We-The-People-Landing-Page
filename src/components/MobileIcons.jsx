@@ -1,5 +1,5 @@
-import googleplay from '.././images/googleplay.png'
-import appstore from '.././images/applestore.png'
+import googleplay from '../images/googleplay.png'
+import appstore from '../mages/applestore.png'
 
 export const MobileIcons = () => {
   return (

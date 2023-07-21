@@ -1,4 +1,4 @@
-import weImage from '.././images/we.png';
+import weImage from '../images/we.png';
 
 export const About = () => {
   return (

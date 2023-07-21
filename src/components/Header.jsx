@@ -4,6 +4,7 @@ import { MobileIcons } from "./MobileIcons"
 import { CiPlay1 } from "react-icons/ci";
 import scrollDown from '.././images/scrolldown.png'
 
+
 export const Header = () => {
   return (
     <div className='heroSection'>
