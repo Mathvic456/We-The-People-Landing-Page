@@ -1,0 +1,29 @@
+.team-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    gap: 3rem;
+   
+}
+
+.team-details{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 2rem;
+    column-gap: 2rem;
+    width: 50%;
+
+}
+
+.team-text {
+    width: 50%;
+}
+.details{
+    color: #FFD39E;
+    text-align: left;
+    margin-top: 80px;
+    padding: 10px;
+    font: normal normal medium 29px/39px General Sans;
+    font-size: 29px;
+}
+

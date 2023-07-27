@@ -1,0 +1,70 @@
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding: 3rem;
+    background-image: url('..images/bg2.png');
+    background: #000000 0% 0% no-repeat padding-box;
+}
+.form-wrapper {
+width: 700px;
+height: 850px;
+background: #141414 0% 0% no-repeat padding-box;
+
+
+}
+.contact-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    font: normal normal bold 68px/44px Noe Display;
+    color: #E3902B;
+    margin-bottom: 40px;
+    text-align: left;
+
+}
+
+.more-details {
+    color: #FFFFFF;
+    font: normal normal normal 22px/33px General Sans;
+    text-align: left;
+    max-width: 500px;
+}
+
+.sub-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.input-details{
+    background: #504E4E 0% 0% no-repeat padding-box;
+    margin-top: 20px;
+    width: 516px;
+height: 82px;
+}
+
+.text-area{
+    height: 247px;
+    background: #504E4E 0% 0% no-repeat padding-box;
+    margin-top: 20px;
+    width: 516px;
+}
+
+.sub{
+width: 516px;
+padding: 20px;
+text-align: center;
+background-color: #E3902B;
+font: normal normal bold 32px/41px Noe Display;
+margin-top: 30px;
+border-radius: 5px;
+}
+
